@@ -140,6 +140,7 @@ body {
 
 /*===============PORTFOLIO======*/
 .filter-button {
+  font-family: 'Roboto', sans-serif;
   color: var(--brand-color);
   font-size: 16px;
   font-weight: 500;
