@@ -16,7 +16,7 @@
 }
 body {
   background-color: #ffffff;
-  color: #2e2f42;
+  color: #434455;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
@@ -27,6 +27,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 .section-description {
@@ -59,7 +60,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -68,14 +69,16 @@ body {
   color: var(--primery-text-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 /*==========/COMPONENTS========*/
 
 /*=========HEADER=======*/
-
+.contact-address {
+  font-style: normal;
+}
 .contact-mail {
   color: var(--secondery-text-color);
   font-size: 16px;
@@ -117,10 +120,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   cursor: pointer;
 }
 .page-button:hover,
@@ -132,10 +131,12 @@ body {
 .information-section {
   background-color: var(--light-color);
 }
+.information-iteam {
+  background-color: var(--wigth-color);
+}
 /*============/TEAM===========*/
 /*============FOOTER==========*/
-.logo-dark-studio {
-}
+
 /*=============/FOOTER=========*/
 .footer {
   background-color: var(--primery-text-color);
@@ -143,6 +144,8 @@ body {
 .dark {
   color: var(--light-color);
 }
+/*=============/FOOTER=========*/
+
 /*===============PORTFOLIO======*/
 .filter-button {
   color: var(--brand-color);
@@ -150,13 +153,13 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  display: flex;
-  padding: 12px 24px;
   background-color: var(--light-color);
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
   color: var(--wigth-color);
   background: var(--pressed-color);
 }
+
 /*==============/PORTFOLIO=======*/
