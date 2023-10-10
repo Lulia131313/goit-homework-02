@@ -86,7 +86,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contact-mail-number:hover .contact-mail-number:focus {
+.contact-mail-number:hover,
+.contact-mail-number:focus {
   color: var(--pressed-color);
 }
 /*============/HEADER=========*/
@@ -104,6 +105,7 @@ body {
   letter-spacing: 1.12px;
 }
 .page-button {
+  font-family: 'Roboto', sans-serif;
   color: var(--wigth-color);
   background: var(--brand-color);
   font-size: 16px;
