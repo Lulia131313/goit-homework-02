@@ -86,8 +86,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-mail-number:hover .contact-mail-number:focus {
   color: var(--pressed-color);
 }
 /*============/HEADER=========*/
